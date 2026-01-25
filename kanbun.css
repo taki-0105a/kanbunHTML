@@ -110,6 +110,10 @@
   grid-column: 1;
 }
 
+.kanbun .has-okurigana .furigana {
+  justify-self: end;
+}
+
 .kanbun .has-multiple-kanji .furigana {
   grid-column: 1 / 3;
   height: auto;
@@ -123,10 +127,6 @@
   .unit:not(.has-multiple-kanji)
   .furigana {
   justify-self: start;
-}
-
-.kanbun .has-okurigana .furigana {
-  justify-self: end;
 }
 
 .kanbun .okurigana,
